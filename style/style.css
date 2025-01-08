@@ -1,0 +1,127 @@
+
+.open-sans-normal  {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.secondary-bg{
+    background: rgb(255, 248, 243);
+}
+.text_primary{
+    color: #FD6E0A;
+}
+/* header area style */
+.header{
+   background-image: url(../img/developer.png), url(../img/header_bg.png);
+   background-repeat: no-repeat;
+   background-position: top left, bottom right;
+}
+/* nva style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20;
+}
+.dark-2{
+    color: #474747;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+.brn-primary {
+color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 20px;
+border-radius: 5px;
+background: rgb(253, 110, 10);
+border: none;
+padding: 18px 35px;
+}
+
+/* banner style  */
+.banner{
+    margin: 0 35px 0 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 580px;
+
+    
+    
+}
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.banner-title{
+    font-weight:bold;
+    font-size: 85px;
+}
+.banner-description {
+color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-profile-pic{
+    width: 584px;
+height: 676px;
+left: 978px;
+right: 38px;
+top: 161px;
+bottom: 3419px;
+}
+
+/* section area style */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+} 
+.section-description{
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About style */
+.about {
+    border-radius: 10px;
+    padding: 130opx 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.item-descripion {
+    font-weight: 600;
+}
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
